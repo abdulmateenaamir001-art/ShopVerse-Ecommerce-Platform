@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "shopverse-backend/server.js",
+      "src": "server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "shopverse-backend/server.js"
+      "src": "/(.*)",
+      "dest": "server.js"
     }
   ]
 }
