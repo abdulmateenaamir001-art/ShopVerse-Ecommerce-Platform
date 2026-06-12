@@ -1,0 +1,15 @@
+node_modules/
+.env
+dist/
+dist-ssr/
+*.log
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.local

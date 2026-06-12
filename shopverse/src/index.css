@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: radial-gradient(1200px circle at 20% 0%, rgba(37, 99, 235, 0.12), transparent 40%),
+      #f9fafb;
+    color: #111827;
+    transition: background-color 300ms ease, color 300ms ease;
+  }
+
+  .dark body {
+    background: radial-gradient(1200px circle at 20% 0%, rgba(37, 99, 235, 0.25), transparent 40%),
+      #0f172a;
+    color: #f3f4f6;
+  }
+
+  /* Better default focus for inputs/buttons */
+  :focus-visible {
+    outline: 2px solid rgba(37, 99, 235, 0.7);
+    outline-offset: 2px;
+  }
+}
+
+
+
